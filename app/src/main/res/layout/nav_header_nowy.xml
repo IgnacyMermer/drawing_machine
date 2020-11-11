@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maszyna do losowania liczb"
+        android:textSize="18dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/nav_header_desc"
+        app:srcCompat="@drawable/ic_filter_1_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_filter_2_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_filter_3_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_filter_4_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_filter_5_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_filter_6_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_filter_7_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_filter_8_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageView1"
+        app:srcCompat="@drawable/ic_filter_9_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageView1"
+        app:srcCompat="@drawable/ic_filter_9_plus_black_24dp"
+        tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+</LinearLayout>
